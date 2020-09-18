@@ -8,7 +8,7 @@ public class HelloWorld {
 		
 		
 		while(counter<100) {
-			if(counter%5==0) {System.out.println("Hello Bäm!");}
+			if(counter%5==0) {System.out.println("Hello Space!");}
 				else {System.out.println("Hello World!");}
 			System.out.println(counter);
 			counter++;
