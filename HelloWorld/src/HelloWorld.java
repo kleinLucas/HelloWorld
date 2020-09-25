@@ -1,30 +1,34 @@
 //Dies ist ein Zählspiel//
 public class HelloWorld {
 
-	static int counter = 1;
-	
+	static int number = 13;
+	static int counter = 2;
+	static boolean isPrime = true;
 	public static void main(String[] args) {
 			
-		//
-		while(counter<=100) {
-		  if(counter%3==0 && counter%5==0) {
-			  System.out.println("FizzBuzz");}
-		  else {
-			  if(counter%3==0) {System.out.println("Fizz");}
-				else {
-				  if(counter%5==0) {System.out.println("Buzz");}
-				    else {System.out.println(counter);} 
-						
-					
-				}
-		  }
-			
-			counter++;
-			 
-		}
 		
-	}
-	}
+		while(counter <number/2  && isPrime==true) {
+			if(number%counter==0) {isPrime=false;};
+		
+			counter++;
+			
+		
+	}//while			
+	
+	if(isPrime==true)	{System.out.println(number);}
+	
+	
+	} //public Static void
+}//Public Class
+
+
+			
+			
+			 
+		
+	
+	
+	
 	
 
 
